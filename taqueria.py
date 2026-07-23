@@ -9,3 +9,7 @@ menu = {
     "Taco": 3.00,
     "Tortilla Salad": 8.00
 }
+soorat_hesab = 0
+while True:
+    food = input("order: ").title().strip()
+
