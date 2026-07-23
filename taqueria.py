@@ -11,5 +11,12 @@ menu = {
 }
 soorat_hesab = 0
 while True:
+
     food = input("order: ").title().strip()
+    if food in menu:
+        soorat_hesab += menu.get(food)
+        print(soorat_hesab)
+
+
+
 
